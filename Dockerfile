@@ -8,8 +8,9 @@ RUN pip install konlpy
 RUN pip install matplotlib
 RUN pip install flask
 RUN pip install flask_cors
-RUN mkdir outputs
+
 WORKDIR /py_word_cloud_docker
+RUN mkdir outputs
 
 # Write left part as you want
 CMD python word_cloud.py

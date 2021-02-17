@@ -103,4 +103,4 @@ def validate():
 
 
 if __name__ == '__main__':
-    app.run('0.0.0.0', port=5002, threaded=True) # 처리 속도 향상을 위해 쓰레드를 적용합니다.
+    app.run('0.0.0.0', port=80, threaded=True) # 처리 속도 향상을 위해 쓰레드를 적용합니다.

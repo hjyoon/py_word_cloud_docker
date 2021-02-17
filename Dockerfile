@@ -8,7 +8,7 @@ RUN pip install konlpy
 RUN pip install matplotlib
 RUN pip install flask
 RUN pip install flask_cors
-EXPOSE 5002
+RUN mkdir outputs
 WORKDIR /
 
 # Write left part as you want
